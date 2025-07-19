@@ -499,3 +499,18 @@ nav {
 	background-color: #313131;
 	border: 1px solid #414141;
 }
+
+@media screen and (max-width: 768px) {
+	.info-logo {
+		position: relative;
+		top: auto;
+		right: auto;
+		height: 40px;
+		margin-bottom: 1rem;
+		opacity: 0.8;
+	}
+
+	.info-title {
+		padding-right: 0;
+	}
+}
