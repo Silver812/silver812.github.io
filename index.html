@@ -1,1 +1,186 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>David Castejón - ML and UE programmer</title>
+	<script src="https://cdn.tailwindcss.com"></script>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+	<div id="main-content" class="container mx-auto max-w-6xl p-8">
+
+		<!-- Navigation Header -->
+		<nav>
+			<div class="flex justify-center space-x-4 md:space-x-8">
+				<a href="index.html" class="nav-link active">Home</a>
+				<a href="Education.html" class="nav-link">Education</a>
+				<a href="experience.html" class="nav-link">Experience</a>
+				<a href="projects.html" class="nav-link">Projects</a>
+			</div>
+		</nav>
+
+		<!-- Bio Section -->
+		<section class="flex flex-col md:flex-row items-center my-16">
+			<img src="assets/profile.jpeg" alt="David Castejón Soto" class="profile-picture mb-8 md:mb-0 md:mr-8">
+			<div class="text-center md:text-left">
+				<h1
+					class="text-4xl md:text-5xl font-bold text-white mb-2 bg-gradient-to-r from-cyan-400 to-[#45A1F4] bg-clip-text text-transparent">
+					David Castejón Soto</h1>
+				<p class="text-xl text-[#45A1F4]">Machine learning and Unreal Engine programmer</p>
+				<p class="mt-4 text-[#A9A9AA]">
+					I am a Spanish computer engineer with a specialized focus on the intersection of artificial
+					intelligence and game development. My academic journey culminated in two Master's degrees: one in
+					Data Science & AI from the University of Granada, and another focused on C++
+					Programming in Unreal Engine from UT-HUB. Both of these programs plus my Bachelor's in Computer Engineering made me proficient 
+					in C++, Python, and machine learning, alongside a practical understanding of game
+					engine architecture. My passion is to leverage this background to build intelligent and dynamic
+					systems that create compelling gameplay, and I am actively seeking to contribute to innovative
+					projects within the video game industry or in AI research.
+				</p>
+				<!-- Social Links added to Bio -->
+				<div class="mt-6 flex justify-center md:justify-start space-x-6">
+					<a href="https://github.com/Silver812" target="_blank" class="social-link"><svg role="img"
+							viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6">
+							<title>GitHub</title>
+							<path
+								d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" />
+						</svg></a>
+					<a href="https://www.linkedin.com/in/david-castejon-soto/?locale=en_US" target="_blank"
+						class="social-link"><svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
+							class="h-6 w-6">
+							<title>LinkedIn</title>
+							<path
+								d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.225 0z" />
+						</svg></a>
+					<a href="mailto:davidcastejonsoto@gmail.com" class="social-link"><svg role="img" viewBox="0 0 24 24"
+							xmlns="http://www.w3.org/2000/svg" class="h-6 w-6">
+							<title>Gmail</title>
+							<path
+								d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 0 1 0 19.366V5.457c0-2.023 2.309-3.178 3.927-1.964L5.455 4.64 12 9.548l6.545-4.91 1.528-1.145C21.69 2.28 24 3.434 24 5.457z" />
+						</svg></a>
+					<a href="https://bsky.app/profile/silver812.bsky.social" target="_blank" class="social-link"><svg
+							role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6">
+							<title>Bluesky</title>
+							<path
+								d="M12 10.8c-1.087-2.114-4.046-6.053-6.798-7.995C2.566.944 1.561 1.266.902 1.565.139 1.908 0 3.08 0 3.768c0 .69.378 5.65.624 6.479.815 2.736 3.713 3.66 6.383 3.364.136-.02.275-.039.415-.056-.138.022-.276.04-.415.056-3.912.58-7.387 2.005-2.83 7.078 5.013 5.19 6.87-1.113 7.823-4.308.953 3.195 2.05 9.271 7.733 4.308 4.267-4.308 1.172-6.498-2.74-7.078a8.741 8.741 0 0 1-.415-.056c.14.017.279.036.415.056 2.67.297 5.568-.628 6.383-3.364.246-.828.624-5.79.624-6.478 0-.69-.139-1.861-.902-2.206-.659-.298-1.664-.62-4.3 1.24C16.046 4.748 13.087 8.687 12 10.8Z" />
+						</svg></a>
+				</div>
+			</div>
+		</section>
+
+		<!-- Vertical Timeline Section -->
+		<main class="mt-16">
+			<h2 class="text-3xl font-bold text-white text-center mb-12">Projects Timeline</h2>
+			<div class="timeline">
+				<!-- Timeline Item 0: WIP -->
+				<div class="timeline-item">
+					<div class="timeline-box">
+						<img src="assets/learning_to_drive.png" alt="Learning Agents Project" class="timeline-image">
+						<div class="p-6">
+							<span class="timeline-date">July 2025 - In Progress</span>
+							<h3 class="timeline-title">Learning Agents for Racing</h3>
+							<p class="timeline-description">
+								A personal project focused on teaching agents to race and perform jumps on a custom
+								racetrack using Unreal Engine's experimental Learning Agents plugin and Reinforcement
+								Learning.
+							</p>
+							<a href="projects.html#learning-agents" class="timeline-link">View Project Details
+								&rarr;</a>
+						</div>
+					</div>
+				</div>
+				<!-- Timeline Item 1 -->
+				<div class="timeline-item">
+					<div class="timeline-box">
+						<img src="assets/scripts_of_tribute.png" alt="Scripts of Tribute Project" class="timeline-image">
+						<div class="p-6">
+							<span class="timeline-date">June 2025</span>
+							<h3 class="timeline-title">AI for Scripts of Tribute</h3>
+							<p class="timeline-description">
+								Master's Thesis in Data Science and AI. Designed and developed an intelligent agent for a
+								card game using evolutionary algorithms to compete effectively.
+							</p>
+							<a href="projects.html#scripts-of-tribute" class="timeline-link">View Project Details
+								&rarr;</a>
+						</div>
+					</div>
+				</div>
+				<!-- Timeline Item 2 -->
+				<div class="timeline-item">
+					<div class="timeline-box">
+						<img src="assets/king_of_recess.png" alt="King of Recess Project" class="timeline-image">
+						<div class="p-6">
+							<span class="timeline-date">May 2024</span>
+							<h3 class="timeline-title">King of Recess</h3>
+							<p class="timeline-description">
+								Final project for the Master's in UE C++ Programming. A multiplayer party game where I
+								programmed the enemy AI using Behavior Trees and developed various replication systems.
+							</p>
+							<a href="projects.html#king-of-recess" class="timeline-link">View Project Details &rarr;</a>
+						</div>
+					</div>
+				</div>
+				<!-- Timeline Item 3 -->
+				<div class="timeline-item">
+					<div class="timeline-box">
+						<img src="assets/tfg.jpg" alt="Lyra Project" class="timeline-image">
+						<div class="p-6">
+							<span class="timeline-date">June 2023</span>
+							<h3 class="timeline-title">Reinforcement Learning in<br>Shooting Minigame</h3>
+							<p class="timeline-description">
+								Honors Bachelor's Thesis. Trained an AI agent for playing in a shooting range using Reinforcement
+								Learning, connecting a Python based brain to the Unreal Engine minigame I made.
+							</p>
+							<a href="projects.html#lyra" class="timeline-link">View Project Details &rarr;</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+
+	</div>
+
+	<!-- Footer -->
+	<footer class="text-center p-8 mt-16 border-t border-[#414141]">
+		<p class="text-[#A9A9AA] mb-4">&copy; <span id="current-year"></span> David Castejón Soto</p>
+		<div class="flex justify-center space-x-6">
+			<a href="https://github.com/Silver812" target="_blank" class="social-link"><svg role="img"
+					viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6">
+					<title>GitHub</title>
+					<path
+						d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" />
+				</svg></a>
+			<a href="https://www.linkedin.com/in/david-castejon-soto/?locale=en_US" target="_blank"
+				class="social-link"><svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
+					class="h-6 w-6">
+					<title>LinkedIn</title>
+					<path
+						d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.225 0z" />
+				</svg></a>
+			<a href="mailto:davidcastejonsoto@gmail.com" class="social-link"><svg role="img" viewBox="0 0 24 24"
+					xmlns="http://www.w3.org/2000/svg" class="h-6 w-6">
+					<title>Gmail</title>
+					<path
+						d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 0 1 0 19.366V5.457c0-2.023 2.309-3.178 3.927-1.964L5.455 4.64 12 9.548l6.545-4.91 1.528-1.145C21.69 2.28 24 3.434 24 5.457z" />
+				</svg></a>
+			<a href="https://bsky.app/profile/silver812.bsky.social" target="_blank" class="social-link"><svg role="img"
+					viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6">
+					<title>Bluesky</title>
+					<path
+						d="M12 10.8c-1.087-2.114-4.046-6.053-6.798-7.995C2.566.944 1.561 1.266.902 1.565.139 1.908 0 3.08 0 3.768c0 .69.378 5.65.624 6.479.815 2.736 3.713 3.66 6.383 3.364.136-.02.275-.039.415-.056-.138.022-.276.04-.415.056-3.912.58-7.387 2.005-2.83 7.078 5.013 5.19 6.87-1.113 7.823-4.308.953 3.195 2.05 9.271 7.733 4.308 4.267-4.308 1.172-6.498-2.74-7.078a8.741 8.741 0 0 1-.415-.056c.14.017.279.036.415.056 2.67.297 5.568-.628 6.383-3.364.246-.828.624-5.79.624-6.478 0-.69-.139-1.861-.902-2.206-.659-.298-1.664-.62-4.3 1.24C16.046 4.748 13.087 8.687 12 10.8Z" />
+				</svg></a>
+		</div>
+	</footer>
+
+	<!-- JavaScript for animations -->
+	<script src="script.js"></script>
+</body>
+
+</html>
