@@ -151,7 +151,7 @@ nav {
 }
 
 .timeline-box:hover {
-	transform: translateY(-5px);
+	transform: translateY(-12px);
 	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
@@ -417,7 +417,7 @@ nav {
 }
 
 .info-card:hover {
-	transform: translateY(-5px);
+	transform: translateY(-12px);
 	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
@@ -491,13 +491,20 @@ nav {
 }
 
 .keyword-tag {
-	display: inline-block;
-	padding: 0.25rem 0.75rem;
-	border-radius: 9999px;
-	font-size: 0.875rem;
-	font-weight: 500;
-	background-color: #313131;
-	border: 1px solid #414141;
+    display: inline-block;
+    padding: 0.25rem 0.75rem;
+    border-radius: 9999px;
+    font-size: 0.875rem;
+    font-weight: 500;
+    background-color: #313131;
+    border: 1px solid #414141;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.keyword-tag:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 @media screen and (max-width: 768px) {
@@ -514,3 +521,13 @@ nav {
 		padding-right: 0;
 	}
 }
+
+.card-keywords {
+    margin-top: 1.5rem;
+    padding-top: 1rem;
+    border-top: 1px solid #414141;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+}
+
